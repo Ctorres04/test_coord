@@ -5,7 +5,7 @@ import { Ensure, equals } from '@serenity-js/assertions';
 import { LastResponse } from '../src/questions/LastResponse';
 
 describe('Consultar Guía', () => {
-    it('Debe permitir consultar una guía existente', async ({ actor }) => {
+    it('permitir consultar una guía existente', async ({ actor }) => {
         const usuario = await Usuario.queBuscaConsultarUnaGuia(); // Esperar a que el actor esté listo
 
         await usuario.attemptsTo(
