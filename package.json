@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@serenity-js/core": "^3.31.12",
+    "@serenity-js/playwright": "^3.31.12",
+    "@serenity-js/playwright-test": "^3.31.12",
+    "playwright": "^1.51.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  },
+  "scripts": {}
+}
